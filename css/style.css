@@ -371,6 +371,19 @@ img{max-width:100%;display:block;}
   border-radius:999px;
   display:inline-block;
 }
+.project-link{
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  color:var(--accent);
+  border:1px solid var(--border);
+  padding:6px 12px;
+  border-radius:999px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  transition:.15s;
+}
+.project-link:hover{border-color:var(--accent);background:var(--surface-2);}
 
 /* ---------- Certifications ---------- */
 .cert-row{display:flex;flex-wrap:wrap;gap:20px;}
